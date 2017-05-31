@@ -1,10 +1,7 @@
-#include <iostream>
 #include<stdio.h>
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 /*
 最小生成树Prime算法
-2014-12-25 23:12 
+2017-06-01 01:56
 Prim算法基本思想: 
 1、从图N = { V, E }中选择某一顶点u0 进行标记，之
 后选择与它关联的具有最小权值的边(u0, v)，并将顶
@@ -105,7 +102,7 @@ void MiniSpanTree_Prim(MGraph *G,int sv){
 		Mark[sv]=1;//从顶点sv开始产生最小生成树，故最开始默认顶点sv已加入到最小生成树
 		
 		//产生最小生成树 
-		for(i=0;i<G->numVertexs;i++){
+		for(i=0;i<G->numVertexs-1;i++){//最后结果会多输出一次所以-1
 			
 			int min=Infinity;
 			int index;//存放边权值最小顶点下标 
