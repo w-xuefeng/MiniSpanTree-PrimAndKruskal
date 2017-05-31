@@ -1,4 +1,4 @@
-# MiniSpanTree_Prim01
+# MiniSpanTree_Prim
 数据结构 算法 图 最小生成树 MiniSpanTree_Prim，普里姆(Prim)算法
  
 ## 最小生成树```Prime```算法
