@@ -70,7 +70,12 @@ void MGraphPrint(MGraph G){
 	for(int i=0;i<G.numVertexs;i++)	{
 		
 		for(int j=0;j<G.numVertexs;j++){
-			printf("%7d,",G.arc[i][j]);
+			
+			if(G.arc[i][j] == Infinity){
+             			printf(" ∞\t");
+           		}else{
+             			printf(" %d\t",G.arc[i][j]);
+           		}
 		}
 			
 		printf("\n");	
