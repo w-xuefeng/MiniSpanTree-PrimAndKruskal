@@ -1,5 +1,5 @@
 # MiniSpanTree Prim and Kruskal 算法
-### 数据结构 算法 图 最小生成树
+### KEYWORDS:数据结构 算法 图 最小生成树
  
 ## ```Prime```算法
 ### ```Prim```算法基本思想: 
